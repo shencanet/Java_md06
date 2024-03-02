@@ -1,0 +1,2 @@
+javac MiPrograma.java  # Compila el programa
+java MiPrograma        # Ejecuta el programa

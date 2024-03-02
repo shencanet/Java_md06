@@ -1,0 +1,1 @@
+proyecto java crear un directorio (Mi Directorio) y dentro de ese directorio un archivo (miFichero.txt) usando la clase file
