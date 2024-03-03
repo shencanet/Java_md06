@@ -8,8 +8,9 @@ public class CrearDirectorio {
     public static void main(String[] args) {
         // Nombre del archivo
 
-        File miDirectorio = new File("src/miDirectorio");
-        File miFichero = new File("src/miDirectorio/mifichero.txt");
+        File miDirectorio = new File("miDirectorio");
+        File miFichero = new File("miDirectorio/mifichero.txt");
+        miDirectorio.mkdir();
 
         try {
             miDirectorio.mkdir();
@@ -22,6 +23,6 @@ public class CrearDirectorio {
             e.printStackTrace();
         }
 
-        System.out.println("Fin del PROGRAMA");
+        System.out.println("Fin del Programa.");
     }
 }
